@@ -61,7 +61,8 @@ export default function AddOnsSection() {
           </div>
 
           {/* Exterior Add-Ons */}
-          <div>
+          <div href="https://book.squareup.com/appointments/b25lvvabnjq20b/location/LA0R9X70JMSW0/services"
+          >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-primary" />
               <h3 className="font-mono text-xs tracking-[0.2em] uppercase text-foreground">
