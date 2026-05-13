@@ -39,8 +39,8 @@ export default function ContactSection() {
             className="grid sm:grid-cols-3 gap-6 mb-12"
           >
             {[
-              { icon: Phone, label: 'Call Us', value: '(555) 123-4567', href: 'tel:5551234567' },
-              { icon: MessageCircle, label: 'Text Us', value: '(555) 123-4567', href: 'sms:5551234567' },
+              { icon: Phone, label: 'Call Us', value: '(203) 631-6275', href: 'tel:(203) 631-6275' },
+              { icon: MessageCircle, label: 'Text Us', value: '(203) 631-6275', href: 'sms:(203) 631-6275' },
               { icon: MapPin, label: 'Mobile Service', value: 'We Come to You', href: null },
             ].map(({ icon: Icon, label, value, href }) => (
               <div key={label} className="p-6 border border-border bg-card/30 hover:border-primary/20 transition-colors duration-300">
