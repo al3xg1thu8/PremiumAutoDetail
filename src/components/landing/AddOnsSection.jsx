@@ -11,10 +11,10 @@ const interiorAddOns = [
   { name: 'Stain Spot Removal', price: '$20+' },
 ];
 
+// { name: 'Clay Bar Treatment', price: '$60' },
+// { name: 'Headlight Restore', price: '$50' },
 const exteriorAddOns = [
-  { name: 'Clay Bar Treatment', price: '$60' },
   { name: 'Spray Wax Upgrade', price: '$20' },
-  { name: 'Headlight Restore', price: '$50' },
   { name: 'Engine Bay Wipe Down', price: '$35' },
 ];
 
