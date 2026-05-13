@@ -47,18 +47,16 @@ export default function AboutSection() {
               className="space-y-5 text-muted-foreground font-body leading-relaxed"
             >
               <p>
-                Every vehicle that enters our care is treated as a unique restoration project. 
-                We don't rush. We don't cut corners. We approach each surface with the same 
-                level of care a surgeon brings to the operating table.
+              As a college student chasing something bigger, I built this business from a simple passion: bringing 
+              cars back to life and giving people that feeling of driving something truly clean and cared for.
               </p>
               <p>
-                Using professional-grade products, proper contact wash techniques, and an 
-                uncompromising eye for detail, we deliver results that transform your daily 
-                driver into a showroom piece.
+              Every vehicle that comes through my hands is treated like more than just another appointment—it’s a 
+              personal project. I don’t rush jobs, cut corners, or believe in “good enough.” I take pride in doing things the right way, using professional-grade products, safe wash methods, and a sharp eye for the small details most people overlook.
               </p>
               <p>
-                From paint decontamination to interior deep-cleans, every step follows 
-                a proven process refined over hundreds of vehicles.
+              From paint decontamination to deep interior resets, every service follows a process I’ve refined 
+              through hands-on experience and a genuine obsession with perfection.
               </p>
             </motion.div>
 
