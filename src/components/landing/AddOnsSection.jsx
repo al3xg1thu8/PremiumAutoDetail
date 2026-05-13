@@ -3,19 +3,21 @@ import { motion } from 'framer-motion';
 import SectionLabel from './SectionLabel';
 import AddOnCard from './AddOnCard';
 
+const SQUARE_BOOKING_URL = "https://book.squareup.com/appointments/b25lvvabnjq20b/location/LA0R9X70JMSW0/services";
+
 const interiorAddOns = [
-  { name: 'Pet Hair Removal', price: '$25+' },
-  { name: 'Heavy Trash Removal', price: '$20' },
-  { name: 'Odor Bomb Treatment', price: '$35' },
-  { name: 'Seat Shampoo', price: '$40' },
-  { name: 'Stain Spot Removal', price: '$20+' },
+  { name: 'Pet Hair Removal', price: '$25+', link: SQUARE_BOOKING_URL },
+  { name: 'Heavy Trash Removal', price: '$20', link: SQUARE_BOOKING_URL },
+  { name: 'Odor Bomb Treatment', price: '$35', link: SQUARE_BOOKING_URL },
+  { name: 'Seat Shampoo', price: '$40', link: SQUARE_BOOKING_URL },
+  { name: 'Stain Spot Removal', price: '$20+', link: SQUARE_BOOKING_URL },
 ];
 
 // { name: 'Clay Bar Treatment', price: '$60' },
 // { name: 'Headlight Restore', price: '$50' },
 const exteriorAddOns = [
-  { name: 'Spray Wax Upgrade', price: '$20' },
-  { name: 'Engine Bay Wipe Down', price: '$35' },
+  { name: 'Spray Wax Upgrade', price: '$20', link: SQUARE_BOOKING_URL },
+  { name: 'Engine Bay Wipe Down', price: '$35', link: SQUARE_BOOKING_URL },
 ];
 
 export default function AddOnsSection() {
@@ -61,8 +63,7 @@ export default function AddOnsSection() {
           </div>
 
           {/* Exterior Add-Ons */}
-          <div href="https://book.squareup.com/appointments/b25lvvabnjq20b/location/LA0R9X70JMSW0/services"
-          >
+          <div>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-primary" />
               <h3 className="font-mono text-xs tracking-[0.2em] uppercase text-foreground">
