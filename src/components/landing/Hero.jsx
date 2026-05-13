@@ -33,7 +33,7 @@ export default function Hero() {
         >
           <div className="h-px w-12 bg-primary" />
           <span className="font-mono text-[10px] tracking-[0.4em] uppercase text-primary">
-            Automotive Restoration Studio
+            Premium Auto Detail 
           </span>
         </motion.div>
 

@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ServicesSection />
-      <GalleryStrip images={galleryImages} />
+      {/* <GalleryStrip images={galleryImages} /> */}
       <AddOnsSection />
       <AboutSection />
       <ContactSection />

@@ -8,16 +8,16 @@ const SQUARE_BOOKING_URL = "https://book.squareup.com/appointments/b25lvvabnjq20
 const interiorAddOns = [
   { name: 'Pet Hair Removal', price: '$25+', link: SQUARE_BOOKING_URL },
   { name: 'Heavy Trash Removal', price: '$20', link: SQUARE_BOOKING_URL },
-  { name: 'Odor Bomb Treatment', price: '$35', link: SQUARE_BOOKING_URL },
+  { name: 'Odor Bomb Treatment', price: '$30', link: SQUARE_BOOKING_URL},
   { name: 'Seat Shampoo', price: '$40', link: SQUARE_BOOKING_URL },
   { name: 'Stain Spot Removal', price: '$20+', link: SQUARE_BOOKING_URL },
 ];
 
-// { name: 'Clay Bar Treatment', price: '$60' },
 // { name: 'Headlight Restore', price: '$50' },
 const exteriorAddOns = [
-  { name: 'Spray Wax Upgrade', price: '$20', link: SQUARE_BOOKING_URL },
-  { name: 'Engine Bay Wipe Down', price: '$35', link: SQUARE_BOOKING_URL },
+  { name: 'Clay Bar Treatment', price: '$60', link: "https://book.squareup.com/appointments/b25lvvabnjq20b/location/LA0R9X70JMSW0/services" },
+  // { name: 'Spray Wax Upgrade', price: '$20', link: SQUARE_BOOKING_URL },
+  // { name: 'Engine Bay Wipe Down', price: '$35', link: SQUARE_BOOKING_URL },
 ];
 
 export default function AddOnsSection() {

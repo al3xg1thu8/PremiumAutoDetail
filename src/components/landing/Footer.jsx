@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className="border-t border-border py-12">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="font-display text-lg tracking-wide text-foreground">
+          {/* <div className="font-display text-lg tracking-wide text-foreground">
             MACRO<span className="text-primary">.</span>PRECISION
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-8">
             {['Services', 'Add-Ons', 'About', 'Contact'].map((link) => (

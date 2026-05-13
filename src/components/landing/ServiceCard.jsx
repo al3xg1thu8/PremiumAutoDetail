@@ -2,9 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Clock, Check } from 'lucide-react';
 
-export default function ServiceCard({ title, price, time, features, highlighted, index }) {
+export default function ServiceCard({ title, price, time, features, highlighted, index, onClick }) {
   return (
     <motion.div
+      onClick = {onClick}
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
@@ -25,7 +26,7 @@ export default function ServiceCard({ title, price, time, features, highlighted,
         </p>
         <h3 className="font-display text-2xl lg:text-3xl text-foreground mb-2">{title}</h3>
         <div className="flex items-baseline gap-1">
-          <span className="font-mono text-xs text-muted-foreground">FROM</span>
+          <span className="font-mono text-xs text-muted-foreground">Starting at</span>
           <span className="font-display text-4xl lg:text-5xl text-primary">${price}</span>
         </div>
       </div>

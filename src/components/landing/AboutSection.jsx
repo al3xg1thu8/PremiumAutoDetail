@@ -27,7 +27,7 @@ export default function AboutSection() {
 
           {/* Content */}
           <div>
-            <SectionLabel label="The Studio" />
+            <SectionLabel label="Mission Statement" />
 
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ export default function AboutSection() {
               className="space-y-5 text-muted-foreground font-body leading-relaxed"
             >
               <p>
-                Every vehicle that enters our studio is treated as a unique restoration project. 
+                Every vehicle that enters our care is treated as a unique restoration project. 
                 We don't rush. We don't cut corners. We approach each surface with the same 
                 level of care a surgeon brings to the operating table.
               </p>
@@ -62,7 +62,7 @@ export default function AboutSection() {
               </p>
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -81,7 +81,7 @@ export default function AboutSection() {
                   </p>
                 </div>
               ))}
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
       </div>
