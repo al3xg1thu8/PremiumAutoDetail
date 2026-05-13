@@ -64,7 +64,7 @@ export default function ContactSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            href="tel:5551234567"
+            href="https://book.squareup.com/appointments/b25lvvabnjq20b/location/LA0R9X70JMSW0/services"
             className="inline-flex items-center justify-center gap-3 px-10 py-4 bg-primary text-primary-foreground font-mono text-xs tracking-[0.2em] uppercase hover:bg-primary/90 transition-all duration-300"
           >
             Secure Your Slot
