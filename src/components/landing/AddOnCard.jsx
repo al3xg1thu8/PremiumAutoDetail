@@ -3,8 +3,13 @@ import { motion } from 'framer-motion';
 
 export default function AddOnCard({ name, price, index, link}) {
   return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block"
+    >
     <motion.div
-      href ={link}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-30px" }}
@@ -18,5 +23,6 @@ export default function AddOnCard({ name, price, index, link}) {
         {price}
       </span>
     </motion.div>
+    </a>
   );
 }
