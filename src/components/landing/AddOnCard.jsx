@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export default function AddOnCard({ name, price, index }) {
+export default function AddOnCard({ name, price, index, link}) {
   return (
     <motion.div
+      href ={link}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-30px" }}
