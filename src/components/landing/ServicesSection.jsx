@@ -82,7 +82,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-muted-foreground font-body max-w-lg mb-16 leading-relaxed"
         >
-          Two precision-engineered packages designed for every level of care your vehicle demands.
+          Three precision-engineered packages designed for every level of care your vehicle demands.
         </motion.p>
 
         <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
