@@ -37,7 +37,7 @@ import { motion } from 'framer-motion';
 export default function GalleryStrip({ images }) {
   return (
     <section className="py-16 lg:py-24 border-t border-border overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-2x1 mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 lg:gap-4">
           {images.map((img, i) => (
             <motion.div
@@ -46,7 +46,7 @@ export default function GalleryStrip({ images }) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-30px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className={`relative overflow-hidden rounded-2xl ${img.size || ''}`}
+              className={`relative overflow-hidden rounded-lg ${img.size || ''}`}
             >
               <div className={`${img.aspect || 'aspect-[4/3]'} overflow-hidden bg-card`}>
                 <img
