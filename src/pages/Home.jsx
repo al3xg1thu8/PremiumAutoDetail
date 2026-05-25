@@ -8,12 +8,27 @@ import AboutSection from '../components/landing/AboutSection';
 import ContactSection from '../components/landing/ContactSection';
 import Footer from '../components/landing/Footer';
 
+import img1 from "./webp/image_1.webp";
+import img2 from "./webp/image_2.webp";
+import img3 from "./webp/image_3.webp";
+import img4 from "./webp/image_4.webp";
 const galleryImages = [
-  { src: 'https://media.base44.com/images/public/6a023549fb9a48452355f2a6/d909f3156_generated_e11c0476.png', alt: 'Wheel detail with iron remover treatment' },
-  { src: 'https://media.base44.com/images/public/6a023549fb9a48452355f2a6/4f5c9935f_generated_fdc24f61.png', alt: 'Pristine dashboard interior detail' },
-  { src: 'https://media.base44.com/images/public/6a023549fb9a48452355f2a6/d1242eb31_generated_423ab0a0.png', alt: 'Water beading on waxed surface' },
-  { src: 'https://media.base44.com/images/public/6a023549fb9a48452355f2a6/56670e4fc_generated_6318286d.png', alt: 'Pristine leather seat detail' },
-  { src: 'https://media.base44.com/images/public/6a023549fb9a48452355f2a6/cc575fca1_generated_e9657e3f.png', alt: 'Polished paint surface close-up' },
+  {
+    src: img1,
+    alt: 'Before and after trunk detail'
+  },
+  {
+    src: img2,
+    alt: 'Before and after interior detail'
+  },
+  {
+    src: img3,
+    alt: 'Wheel cleaning before during and after'
+  },
+  {
+    src: img4,
+    alt: 'Clean car detailing result'
+  },
 ];
 
 export default function Home() {
@@ -21,8 +36,8 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
+      <GalleryStrip images={galleryImages} />
       <ServicesSection />
-      {/* <GalleryStrip images={galleryImages} /> */}
       <AddOnsSection />
       <AboutSection />
       <ContactSection />
@@ -30,3 +45,60 @@ export default function Home() {
     </div>
   );
 }
+
+// import React from 'react';
+// import Navbar from '../components/landing/Navbar';
+// import Hero from '../components/landing/Hero';
+// import ServicesSection from '../components/landing/ServicesSection';
+// import AddOnsSection from '../components/landing/AddOnsSection';
+// import GalleryStrip from '../components/landing/GalleryStrip';
+// import AboutSection from '../components/landing/AboutSection';
+// import ContactSection from '../components/landing/ContactSection';
+// import Footer from '../components/landing/Footer';
+
+// import img1 from "./webp/image_1.webp";
+// import img2 from "./webp/image_2.webp";
+// import img3 from "./webp/image_3.webp";
+// import img4 from "./webp/image_4.webp";
+
+// const galleryImages = [
+//   {
+//     src: img1,
+//     alt: 'Before and after trunk detail',
+//     size: 'md:col-span-2',
+//     aspect: 'aspect-[16/9]',
+//   },
+//   {
+//     src: img2,
+//     alt: 'Before and after interior detail',
+//     size: '',
+//     aspect: 'aspect-[4/3]',
+//   },
+//   {
+//     src: img3,
+//     alt: 'Wheel cleaning before during and after',
+//     size: '',
+//     aspect: 'aspect-[4/3]',
+//   },
+//   {
+//     src: img4,
+//     alt: 'Clean car detailing result',
+//     size: 'md:col-span-2',
+//     aspect: 'aspect-[16/9]',
+//   },
+// ];
+
+// export default function Home() {
+//   return (
+//     <div className="min-h-screen bg-background">
+//       <Navbar />
+//       <Hero />
+//       <GalleryStrip images={galleryImages} />
+//       <ServicesSection />
+//       <AddOnsSection />
+//       <AboutSection />
+//       <ContactSection />
+//       <Footer />
+//     </div>
+//   );
+// }

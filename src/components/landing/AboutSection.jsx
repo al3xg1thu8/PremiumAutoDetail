@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SectionLabel from './SectionLabel';
 
+import img1 from "../../pages/webp/1.webp";
+
 export default function AboutSection() {
   return (
     <section id="about" className="py-24 lg:py-40 border-t border-border">
@@ -17,9 +19,9 @@ export default function AboutSection() {
           >
             <div className="aspect-[4/3] overflow-hidden">
               <img
-                src="https://media.base44.com/images/public/6a023549fb9a48452355f2a6/56670e4fc_generated_6318286d.png"
+                src={img1}
                 alt="Pristine leather car seat detail showing precision craftsmanship"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-primary/20" />
